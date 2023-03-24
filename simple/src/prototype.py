@@ -6,7 +6,7 @@ pw      = ""
 
 
 i       = 0
-while (true)
+while (True):
     pw.append(chars[random.randint(0, len(chars))])
     # ^is this clear enough or should I seperate more steps?
     
