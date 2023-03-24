@@ -2,6 +2,9 @@ use rand::Rng;
 
 fn main() {
     println!("Hello, world!");
+    //type input (full/upper/lower/num/special/extra-special/string)
+    //length input 
+
     let     characters  = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
     let     chars_len   = characters.len();
     let     passw_len   = 16;
