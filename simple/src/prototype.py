@@ -1,6 +1,6 @@
 import random
 
-chars   = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+chars   = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#£$%&[]+?*-_.:,;"
 pwl     = 16
 pw      = ""
 
