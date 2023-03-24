@@ -1,6 +1,9 @@
-pwl = 16
+chars   = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+pwl     = 16
+pw      = ""
 
-i   = 0
+
+i       = 0
 while (true){
     
     
