@@ -14,7 +14,7 @@ fn main() {
     let mut i           = 0;
     loop{
         let random = rand::thread_rng().gen_range(0, chars_len);
-        password.push(characters.chars().nth(rand_index).unwrap()); //look deeper into nth()
+        password.push(characters.chars().nth(random).unwrap()); //look deeper into nth()
 
         i += 1;
         if i >= passw_len {
