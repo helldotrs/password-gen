@@ -17,7 +17,7 @@ fn main() {
         password.push(characters.chars().nth(rand_index).unwrap()); //look deeper into nth()
 
         i += 1;
-        if(i >= passw_len){
+        if i >= passw_len {
             break;
         }
     }
