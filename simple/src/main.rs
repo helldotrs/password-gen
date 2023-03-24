@@ -10,12 +10,18 @@ fn main() {
     let     passw_len   = 16;
 
     let mut password    = String::new();
-    let     rand_max    = rand::thread_rng().gen_range(0, chars_len;   
 
+    let mut i           = 0;
     loop{
-        password += chars
+        let random = rand::thread_rng().gen_range(0, chars_len);
+        password.push(characters.chars().nth(rand_index).unwrap()); //look deeper into nth()
+
+        i += 1;
+        if(i >= passw_len){
+            break;
+        }
     }
 
+    println!("password: {}", password);
     println!("created by hellmak at GitHub, cyberSecHell at Twitter");
-    println!("{}", chars_len);
 }
