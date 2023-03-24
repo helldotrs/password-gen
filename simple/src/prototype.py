@@ -7,7 +7,7 @@ pw      = ""
 
 i       = 0
 while (True):
-    pw += chars[random.randint(0, len(chars))]
+    pw += chars[random.randint(0, len(chars))-1]
     # ^is this clear enough or should I seperate more steps?
     
     if (i >= pwl):
