@@ -5,16 +5,16 @@ fn main() {
     //type input (full/upper/lower/num/special/extra-special/string)
     //length input 
 
-    let uppers      = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    let lowers      = "abcdefghijklmnopqrstuvwxyz";
-    let numbers     = "0123456789";
-    let specials    = "!@#£$%&[]+?*-_.:,;";
+    let     uppers      = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    let     lowers      = "abcdefghijklmnopqrstuvwxyz";
+    let     numbers     = "0123456789";
+    let     specials    = "!@#£$%&[]+?*-_.:,;";
 
-    let     characters  = "";
+    let mut characters  = "";
     let     chars_len   = characters.len();
     let     passw_len   = 16;
 
-    
+
 
     
 
