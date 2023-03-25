@@ -1,4 +1,5 @@
 use rand::Rng;
+use std ::io;
 
 fn main() {
     println!("Hello, world!");
@@ -16,8 +17,6 @@ fn main() {
 
 
 
-    
-
     let mut password    = String::new();
 
     let mut i           = 0;
@@ -33,4 +32,20 @@ fn main() {
 
     println!("password: {}", password);
     println!("created by hellmak at GitHub, cyberSecHell at Twitter");
+}
+
+fn ask_for_input() -> String {
+    let mut input   = String::new();
+
+    println!("Password type [f]ull/[u]pper/[l]ower/[n]um/[s]pecial/[e]xtra-special/[s]ring:");
+    io::stdin()
+        .read_line(&mut input)
+        .expect("failture to read input"); //if not reference, would value be dropped after this line?
+    let input   = input
+        .trim()
+        .to_string();
+
+    input
+    
+
 }
