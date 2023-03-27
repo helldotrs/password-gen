@@ -6,12 +6,14 @@ fn main() {
     //type input (full/upper/lower/num/special/extra-special/string)
     //length input 
 
-    let     uppers      = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    let     lowers      = "abcdefghijklmnopqrstuvwxyz";
-    let     numbers     = "0123456789";
-    let     specials    = "!@#£$%&[]+?*-_.:,;";
+    let     _uppers      = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    let     _lowers      = "abcdefghijklmnopqrstuvwxyz";
+    let     _numbers     = "0123456789";
+    let     _specials    = "!@#£$%&[]+?*-_.:,;";
+    let     _extra      = "¤";
 
     let mut characters  = "";
+
     let     chars_len   = characters.len();
     let     passw_len   = 16;
 
@@ -48,4 +50,20 @@ fn ask_for_input() -> String {
     input
     
 
+}
+//fixme: PSUDOCODE BELOW!!
+fn decide_scan_type(x) -> String {
+    let out_var = "";
+    is x contaains s:
+        return content_of_string;
+    if x contains f:
+        return upper+lower+numbers+specials+extra;
+    
+    if x contains u:
+        out_var += upper;
+    if x contains l:
+        out_var += lower;
+    //and so on
+
+    return out_var;
 }
