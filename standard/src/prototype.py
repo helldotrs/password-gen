@@ -4,6 +4,8 @@ chars   = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#£$%
 pwl     = 16
 pw      = ""
 
+#ask for password criteria
+#add different types of chara to var
 
 i       = 0
 while (True):
